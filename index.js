@@ -10,7 +10,7 @@ app.use(express.json())
 
 app.use("/api/v1/posts", postsRouter)
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000 || 3036
 
 app.listen(PORT, () => {
     console.log("Server running...")
